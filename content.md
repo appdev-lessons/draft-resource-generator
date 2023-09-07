@@ -18,7 +18,7 @@ rails generate draft:resource post title:string body:text expires_on:date board_
 - Separate column names and datatypes with colons (NO SPACES).
 - Separate name:datatype pairs with spaces (NO COMMAS).
 
-In other words, the format of the command is exactly the same as when you were [generating only a model and table](https://learn.firstdraft.com/lessons/126#create-your-tables-and-models), but `model` is replaced with `draft:resource`.
+In other words, the format of the command is exactly the same as when you were [generating only a model and table](https://learn.firstdraft.com/lessons/126-msm-queries#create-your-tables-and-models), but `model` is replaced with `draft:resource`.
 
 (Note: `rails g` is short for `rails generate`, like  `c` is for `console`.)
 
@@ -57,7 +57,7 @@ Whew! What a time saver. However, it only saves time if you are comfortable with
 
 ### Go back to an earlier git commit
 
-You've been making lots of git commits, right? If so, you can [jump back to an earlier commit and try again](https://learn.firstdraft.com/lessons/54#jumping-back-in-time). (Read through that whole lesson to see how to use the commit graph and move back to earlier commits.)
+You've been making lots of git commits, right? If so, you can [jump back to an earlier commit and try again](https://learn.firstdraft.com/lessons/54-git-branch-and-merge#jumping-back-in-time). (Read through that whole lesson to see how to use the commit graph and move back to earlier commits.)
 
 Alternatively....
 
